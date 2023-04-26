@@ -9,7 +9,7 @@ public final class FastCollinearPoints {
     private final LineSegment [] segments;
 
     // finds all line segments containing 4 or more points
-    public FastColline arPoints(Point[] points) {
+    public FastCollinearPoints(Point[] points) {
         if (points == null) throw new IllegalArgumentException();
         for (int i = 0; i < points.length; i++) if (points[i] == null) throw new IllegalArgumentException();
 
