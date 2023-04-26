@@ -119,4 +119,4 @@ Input format. We supply several sample input files (suitable for use with the te
 
 % java-algs4 FastCollinearPoints input6.txt
 (14000, 10000) -> (32000, 10000) 
-Web submission. Submit a .zip file containing only BruteCollinearPoints.java, FastCollinearPoints.java, and Point.java. We will supply LineSegment.java and algs4.jar. You may not call any library functions except those in java.lang, java.util, and algs4.jar. You may use library functions in java.util only if they have already been introduced in the course. For example, you may use Arrays.sort(), but not java.util.HashSet
+Web submission. Submit a .zip file containing only BruteCollinearPoints.java, FastCollinearPoints.java, and Point.java. We will supply LineSegment.java and algs4.jar. You may not call any library functions except those in java.lang, java.util, and algs4.jar. You may use library functions in java.util only if they have already been introduced in the course. For example, you may use Arrays.sort(), but not java.util.HashSet.
