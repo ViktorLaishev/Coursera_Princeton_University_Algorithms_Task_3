@@ -25,7 +25,7 @@ public final class FastCollinearPoints {
         Arrays.sort(myPoints);
         fixedOrder = myPoints.clone(); // Keep original set of points because sorting scrambles points
         // Check for duplicate points
-        for (int i = 0; i < length-1; i++) {
+        for (int i = 0; i < length-1; i++) { 
             if (myPoints[i].compareTo(myPoints[i+1]) == 0) throw new IllegalArgumentException();
         }
 
