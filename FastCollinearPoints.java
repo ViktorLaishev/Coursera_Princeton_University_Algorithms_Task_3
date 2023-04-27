@@ -14,7 +14,7 @@ public final class FastCollinearPoints {
         for (int i = 0; i < points.length; i++) if (points[i] == null) throw new IllegalArgumentException();
 
         int length = points.length;
-        Point [] myPoints = points.clone();
+        Point [] myPoints = points.clone(); 
         Point [] fixedOrder;
         int numSegments = 0;
         double testSlope;
