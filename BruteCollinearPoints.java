@@ -18,7 +18,7 @@ public final class BruteCollinearPoints {
             if (points[i] == null) {
                 throw new IllegalArgumentException();
             }
-        }
+        } 
 
         int length = points.length;
         Point [] myPoints = points.clone();
