@@ -9,7 +9,7 @@ public final class BruteCollinearPoints {
     private final LineSegment [] segments; 
 
     // Finds all line segments containing 4 spoints
-    public BruteCollinearPoints(Point[] points) {
+    public BruteCollinearPoints(Point[] points) { 
         if (points == null) {
             throw new IllegalArgumentException();
         }
