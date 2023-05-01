@@ -3,7 +3,7 @@ import edu.princeton.cs.algs4.StdDraw;
 import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Arrays;
-
+ 
 public final class BruteCollinearPoints {
     
     private final LineSegment [] segments; 
