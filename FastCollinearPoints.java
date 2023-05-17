@@ -6,7 +6,7 @@ import edu.princeton.cs.algs4.In;
   
 public final class FastCollinearPoints {   
 
-    private final LineSegment [] segments;
+    private final LineSegment [] segments; 
 
     // finds all line segments containing 4 or more points
     public FastCollinearPoints(Point[] points) {
