@@ -4,7 +4,7 @@ import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.In;
 
   
-public final class FastCollinearPoints {  
+public final class FastCollinearPoints {   
 
     private final LineSegment [] segments;
 
