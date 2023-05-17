@@ -10,7 +10,7 @@ public final class FastCollinearPoints {
  
     // finds all line segments containing 4 or more points 
     public FastCollinearPoints(Point[] points) { 
-        if (points == null) throw new IllegalArgumentException();
+        if (points == null) throw new IllegalArgumentException(); 
         for (int i = 0; i < points.length; i++) if (points[i] == null) throw new IllegalArgumentException();
 
         int length = points.length;
